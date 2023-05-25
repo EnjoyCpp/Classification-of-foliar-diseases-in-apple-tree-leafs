@@ -62,3 +62,26 @@ pip install nvidia-cudnn-cu11==8.6.0.163 tensorflow==2.10.*
 pip install matplotlib
 pip install albumentations
 ```
+
+
+### Running of a model
+
+To run model use python3
+
+```
+python3 train_model.py
+```
+
+### Alternatively running of a model with visualisations and plots can be done using Jupyter notebook
+
+To run training of a model using Jupyter firstly install jupyter 
+
+```
+pip3 install Jupyter
+```
+
+Then using 
+
+``` jupyter notebook ``` 
+
+you can access jupyter notebook and run `classification_of_follar_disseases.ipynb` jupyter notebook to produce same results
